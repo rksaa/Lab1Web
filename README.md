@@ -30,7 +30,8 @@ Dokumen ini menjelaskan struktur dan fungsi setiap bagian dari kode HTML pada pr
 
 - `<h1>` sampai `<h6>` adalah tag heading (judul), dengan `<h1>` sebagai judul terbesar/utama dan semakin besar angkanya semakin kecil ukurannya.
 - Di sini `<h1>` digunakan sebagai judul utama halaman, dan `<h2>` sebagai subjudul.
-
+**Screenshot Hasil:**  
+![Langkah 1 - Struktur Dasar dan judul dan subjudul](./screenshoot/1.png)
 ## 3. Paragraf
 
 ```html
@@ -41,7 +42,8 @@ Praktikum ini digunakan untuk mengenal tag-tag dasar HTML.
 ```
 
 - Tag `<p>` digunakan untuk membuat paragraf teks biasa. Setiap `<p>` baru otomatis dimulai pada baris baru dengan jarak (margin) di atas dan bawahnya.
-
+**Screenshot Hasil:**  
+![Langkah 2 - Paragraf](./screenshoot/2.png)
 ## 4. Format Teks (Bold, Italic, Strong)
 
 ```html
@@ -70,7 +72,8 @@ sebagai x<sup>2</sup>.
 
 - `<sub>` — menampilkan teks sebagai subscript (turun di bawah baris teks), cocok untuk rumus kimia seperti H₂O.
 - `<sup>` — menampilkan teks sebagai superscript (naik di atas baris teks), cocok untuk pangkat seperti x².
-
+**Screenshot Hasil:**  
+![Langkah 3 - Format Teks dan Subscript dan Superscript](./screenshoot/3.png)
 ## 6. Menambahkan Gambar
 
 ```html
@@ -87,7 +90,8 @@ title="Foto Profil Mahasiswa">
 - `width` — mengatur lebar gambar dalam piksel (200px).
 - `alt` — teks alternatif yang muncul jika gambar gagal dimuat, juga penting untuk aksesibilitas (pembaca layar).
 - `title` — teks tooltip yang muncul saat kursor diarahkan ke gambar.
-
+**Screenshot Hasil:**  
+![Langkah 4 - Struktur Dasar](./screenshoot/4.png)
 ## 7. Komentar HTML
 
 ```html
@@ -110,7 +114,8 @@ title="Foto Profil Mahasiswa">
 - `<a href="...">` — tag hyperlink (tautan). Atribut `href` menentukan tujuan tautan.
   - Tautan ke `index.html` dan `halaman2.html` adalah tautan **internal** (menuju halaman lain dalam situs yang sama).
   - Tautan ke `https://www.google.com` adalah tautan **eksternal** (menuju situs lain di internet).
-
+**Screenshot Hasil:**  
+![Langkah 5 - Navigasi](./screenshoot/5.png)
 ## 9. Garis Pemisah
 
 ```html
