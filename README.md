@@ -158,7 +158,7 @@ Bagian ini adalah dokumen HTML lengkap dan terpisah (`Profil Mahasiswa`), mengga
 
 Struktur ini menunjukkan bagaimana elemen-elemen dasar (heading, paragraf, gambar, list, navigasi) digabungkan untuk membentuk satu halaman web yang utuh dan terstruktur.
 **Screenshot Hasil:**  
-![Langkah 9 - Halaman Profil](./screenshoot/9.png)
+![Langkah 8 - Halaman Profil](./screenshoot/8.png)
 ## Ringkasan
 
 Kode ini mendemonstrasikan elemen-elemen dasar HTML: struktur dokumen (`html`, `head`, `body`), heading (`h1`–`h3`), paragraf (`p`), format teks (`b`, `i`, `strong`, `sub`, `sup`), penyisipan gambar (`img`), komentar (`<!-- -->`), navigasi dan tautan (`nav`, `a`), garis pemisah (`hr`), serta list berurutan dan tidak berurutan (`ol`, `ul`, `li`) — yang kemudian digabungkan menjadi halaman profil mahasiswa yang utuh.
