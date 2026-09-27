@@ -174,44 +174,58 @@ Kode ini mendemonstrasikan elemen-elemen dasar HTML: struktur dokumen (`html`, `
 
 10 latihan soal
 
-1. Apa fungsi deklarasi <!DOCTYPE html> pada dokumen HTML?
-Deklarasi <!DOCTYPE html> berfungsi untuk menyatakan bahwa dokumen menggunakan standar HTML5. Dengan adanya deklarasi ini, browser dapat menampilkan dan memproses halaman web sesuai dengan standar HTML5.
+# Jawaban Pertanyaan Praktikum HTML Dasar
 
-2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
+## 1. Apa fungsi deklarasi `<!DOCTYPE html>` pada dokumen HTML?
+Deklarasi `<!DOCTYPE html>` berfungsi untuk menyatakan bahwa dokumen menggunakan standar **HTML5**. Dengan adanya deklarasi ini, browser dapat menampilkan dan memproses halaman web sesuai dengan standar HTML5.
 
-Tag adalah penanda yang ditulis menggunakan tanda kurung siku (< >), seperti <p>, <h1>, dan <img>.
-Elemen adalah keseluruhan bagian HTML yang terdiri dari tag pembuka, isi, dan tag penutup (atau tag tunggal untuk elemen tertentu).
-Atribut adalah informasi tambahan yang ditulis pada tag pembuka untuk memberikan fungsi atau keterangan tertentu, misalnya href, src, alt, dan width.
+---
 
-3. Apa perbedaan <p> dengan <br>? Jelaskan penggunaannya.
+## 2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
+- **Tag** adalah penanda yang ditulis menggunakan tanda kurung siku (`< >`), contohnya `<p>`, `<h1>`, dan `<img>`.
+- **Elemen** adalah keseluruhan bagian HTML yang terdiri dari tag pembuka, isi, dan tag penutup (atau tag tunggal).
+- **Atribut** adalah informasi tambahan yang ditulis pada tag pembuka untuk memberikan fungsi tertentu, seperti `href`, `src`, `alt`, dan `width`.
 
-Tag <p> digunakan untuk membuat paragraf baru sehingga teks tersusun menjadi beberapa paragraf.
-Tag <br> digunakan untuk berpindah ke baris baru tanpa membuat paragraf baru.
-Dengan demikian, <p> digunakan untuk memisahkan isi menjadi paragraf, sedangkan <br> hanya digunakan untuk memindahkan teks ke baris berikutnya.
+---
 
-4. Apa fungsi atribut href pada tag <a>?
-Atribut href berfungsi untuk menentukan alamat atau tujuan hyperlink yang akan dibuka ketika link diklik, baik menuju halaman lain, website lain, maupun bagian tertentu dalam halaman yang sama.
+## 3. Apa perbedaan `<p>` dengan `<br>`? Jelaskan penggunaannya.
+- Tag `<p>` digunakan untuk membuat **paragraf** baru.
+- Tag `<br>` digunakan untuk **berpindah ke baris baru** tanpa membuat paragraf baru.
 
-5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
+---
 
-Hyperlink internal menghubungkan ke halaman lain yang masih berada dalam website atau folder proyek yang sama, misalnya halaman2.html.
-Hyperlink eksternal menghubungkan ke website lain di luar website yang dibuat, misalnya https://www.google.com.
+## 4. Apa fungsi atribut `href` pada tag `<a>`?
+Atribut `href` berfungsi untuk menentukan alamat atau tujuan hyperlink yang akan dibuka ketika link diklik.
 
-6. Apa fungsi atribut src dan alt pada tag <img>?
+---
 
-src berfungsi untuk menentukan lokasi atau path file gambar yang akan ditampilkan.
-alt berfungsi memberikan teks alternatif atau deskripsi gambar yang akan ditampilkan apabila gambar tidak dapat dimuat atau untuk membantu aksesibilitas.
+## 5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
+- **Hyperlink internal** menghubungkan ke halaman lain dalam website atau folder proyek yang sama, misalnya `halaman2.html`.
+- **Hyperlink eksternal** menghubungkan ke website lain di luar website yang dibuat, misalnya `https://www.google.com`.
 
-7. Apa perbedaan penggunaan <ul> dan <ol>?
+---
 
-<ul> (Unordered List) digunakan untuk membuat daftar yang tidak menggunakan nomor atau urutan.
-<ol> (Ordered List) digunakan untuk membuat daftar yang menggunakan nomor atau urutan tertentu.
+## 6. Apa fungsi atribut `src` dan `alt` pada tag `<img>`?
+- **`src`** berfungsi menentukan lokasi atau path file gambar.
+- **`alt`** berfungsi memberikan teks alternatif jika gambar tidak dapat ditampilkan.
 
-8. Apa yang terjadi jika path gambar pada atribut src salah?
-Jika path atau lokasi gambar pada atribut src salah, maka browser tidak dapat menemukan dan menampilkan gambar. Sebagai gantinya, browser akan menampilkan teks yang terdapat pada atribut alt jika atribut tersebut tersedia.
+---
 
-9. Mengapa struktur heading h1 sampai h6 perlu digunakan secara terstruktur?
-Karena heading berfungsi sebagai judul dan subjudul halaman. Penggunaan h1 hingga h6 secara berurutan membuat struktur dokumen menjadi lebih rapi, mudah dipahami, dan menunjukkan hierarki informasi dari judul utama hingga subjudul.
+## 7. Apa perbedaan penggunaan `<ul>` dan `<ol>`?
+- **`<ul>` (Unordered List)** digunakan untuk membuat daftar tanpa nomor.
+- **`<ol>` (Ordered List)** digunakan untuk membuat daftar yang menggunakan nomor atau urutan.
 
-10. Apa fungsi komentar <!-- ... --> dalam kode HTML?
-Komentar HTML berfungsi untuk memberikan penjelasan atau catatan pada kode program, menandai bagian tertentu, serta dapat digunakan untuk menonaktifkan kode sementara. Komentar hanya dapat dilihat oleh programmer dan tidak akan ditampilkan pada halaman web di browser
+---
+
+## 8. Apa yang terjadi jika path gambar pada atribut `src` salah?
+Jika path gambar pada atribut `src` salah, browser tidak dapat menampilkan gambar dan akan menampilkan teks pada atribut `alt` (jika tersedia).
+
+---
+
+## 9. Mengapa struktur heading `h1` sampai `h6` perlu digunakan secara terstruktur?
+Karena heading berfungsi sebagai judul dan subjudul. Penggunaannya secara berurutan membuat struktur dokumen lebih rapi, mudah dipahami, dan menunjukkan hierarki informasi.
+
+---
+
+## 10. Apa fungsi komentar `<!-- ... -->` dalam kode HTML?
+Komentar HTML digunakan untuk memberikan penjelasan atau catatan pada kode, menandai bagian tertentu, atau menonaktifkan kode sementara. Komentar hanya dapat dilihat oleh programmer dan tidak ditampilkan di browser.
